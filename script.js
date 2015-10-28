@@ -140,7 +140,8 @@ $(document).ready(function(){
       checkTwo();
       count = 0;
       imageArray = [];
-      setTimeout(resetGame,1000);
+      setTimeout(resetGame,500);
+
   }
 
   function checkTwo(){//check for same
