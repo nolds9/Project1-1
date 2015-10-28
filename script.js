@@ -150,6 +150,7 @@ $(document).ready(function(){
           if($(cardList[x]).attr('src')===$(cardList[y]).attr('src') && $(cardList[x]).attr('src') !== firstImage && $(cardList[y]).attr('src') !== firstImage){
             console.log("Match!");
             alert("Match!");
+            cOrder = returnRandomSelected();
             return;
           }
         }
@@ -160,7 +161,6 @@ $(document).ready(function(){
 
   function resetGame(){
     $(".img").attr("src",firstImage);
-    cOrder = returnRandomSelected();
   }
 
   listeners();
