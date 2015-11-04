@@ -33,7 +33,7 @@ body {
 }*/
 
 .card .front, .card .back {
-  position:absolute:
+  position: absolute;
   top: 0px;
   left: 0px;
   display: inline-block;
@@ -75,6 +75,8 @@ body {
   transition-delay: 0s;*/
   border: 0px solid white;
 }
+
+/* NHO: Remember to remove unused code! */
 
 /*.card:hover .front, .card:hover .back {
   -webkit-transform: rotateY(-90deg);
